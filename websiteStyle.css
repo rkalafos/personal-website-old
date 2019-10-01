@@ -1,0 +1,155 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+/* font-family: "Roboto Mono", monospace */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+/* font-family: 'Inconsolata', monospace; */
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+/* Universal rules for the page. Anything following is overwritten. */
+body {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+}
+
+/* Style the header */
+header {
+  background-color: #B0C4DE;
+  color: #333;
+  font-size: 18px;
+  padding: 30px;
+}
+
+.name {
+  font-size: 40px;
+  color: #FFFFFF;
+  font-family: "Roboto Mono", monospace;
+}
+
+/* Style the navigation bar */
+nav {
+  font-family: "Roboto Mono", monospace;
+  background-color: #333;
+  overflow: hidden;
+  padding: 12px;
+  text-align: center;
+}
+
+/* Style the links in the nav bar */
+nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 12px 50px;
+  font-size: 18px;
+}
+
+/* Style links when hovering over nav bar */
+nav a:hover {
+  color: #FFDAB9;
+}
+
+/* Style the selected page's link */
+.select {
+  background-color: #FFFFFF;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Mono", monospace;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  padding: 5px 20px;
+  font-size: 18px;
+}
+
+#bio_wrap {
+  width: 100%;
+  overflow: hidden;
+  padding: 4%;
+}
+
+#bio {
+  float: left;
+  overflow: hidden;
+  width: 45%;
+}
+
+#profile {
+  overflow: hidden;
+}
+
+ul {
+  padding: 0px 200px;
+}
+
+li {
+  padding: 15px 50px;
+  font-size: 18px;
+  list-style-type: circle;
+}
+
+#info-wrap {
+  padding: 20px;
+  border: 15px #B0C4DE;
+  border-style: solid;
+}
+
+#social_bar {
+  padding: 20px;
+}
+
+footer {
+  text-align: right;
+  padding: 20px;
+  background-color: #333;
+  color: #FFFFFF;
+}
+
+#box {
+  outline-style: solid;
+  outline-color: black;
+
+}
+
+#container {
+    position: inherit;
+    width: 100%;
+    max-height: 300px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#container * { white-space: normal }
+
+#container img {
+    max-width: autoplay;
+    height: 300px;
+    display: inline-block;
+}
+
+.download_button {
+  color: black;
+  outline-style: solid;
+  outline-color: black;
+  background-color: #f5d8bf;
+  padding: 10px;
+  text-decoration: none;
+}
