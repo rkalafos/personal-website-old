@@ -137,17 +137,15 @@ footer {
     white-space: nowrap;
 }
 
-#container * { white-space: normal }
-
 #container img {
-    max-width: autoplay;
     height: 300px;
     display: inline-block;
 }
 
 .download_button {
   color: black;
-  outline-style: solid;
+  outline-style: double;
+  outline-width:5px;
   outline-color: black;
   background-color: #f5d8bf;
   padding: 10px;
